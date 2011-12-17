@@ -1,0 +1,28 @@
+body {
+    font-family: Calibri,FreeSans,sans-serif;
+    font-size: 12px;
+    color: #404040;
+    padding: 2em;
+}
+#abstract {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #F0F0F0;
+    border-bottom: 3px solid #E8E8E8;
+    h1 {
+        font-size: 130%;
+        font-weight: bold;
+    }
+    p {
+        display: none;
+        opacity: 0.7;
+        &.todo {
+            opacity: 1;
+            font-size: 90%;
+            font-weight: bold;
+        }
+    }
+    &:hover p {
+        display: block;
+    }
+}
